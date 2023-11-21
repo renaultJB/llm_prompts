@@ -1,7 +1,10 @@
 # LLM prompts
 Repository for listing prompts for large language models
 
-# Example
+# NER prompts
+The goal here is to rely on an LLM to label NER data, as we cannot rely on the model accurately counting characters, we go for extracting excerpts and modifying the entity mention so that later a simple script can convert that to proper NER labeled data.
+
+## Example
 ``````
 You are an expert nlp data labeler in named entity recognition, your task is to manually recognize and extract specific types of entities from a text document and identify all entities them in the sentences where they are mentionned.
 
